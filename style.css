@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://optimizerwp.com/wp-content/uploads/2015/09/Video-Featured-final.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;}
+
+
+
+
+.keys {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.key {
+    transition: all 0.07s;
+    border: 3px solid #06164D;
+    border-radius: 5px;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
+
+.sound {
+    text-transform: uppercase;
+    color: green;
+}
+
+kbd {
+    display: block;
+    font-size: 40px;
+    color: #06164D;
+    font-weight: bold;
+}
+
